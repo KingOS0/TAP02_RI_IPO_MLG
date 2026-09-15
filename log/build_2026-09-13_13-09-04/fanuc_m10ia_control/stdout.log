@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/planning_scene.dir/src/planning_scene.cpp.o[0m
+[100%] [32m[1mLinking CXX executable planning_scene[0m
+[100%] Built target planning_scene
+-- Install configuration: ""
+-- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/lib/fanuc_m10ia_control/planning_scene
+-- Set non-toolchain portion of runtime path of "/home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/lib/fanuc_m10ia_control/planning_scene" to ""
+-- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/ament_index/resource_index/package_run_dependencies/fanuc_m10ia_control
+-- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/ament_index/resource_index/parent_prefix_path/fanuc_m10ia_control
+-- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/environment/path.sh
+-- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/environment/path.dsv
+-- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/local_setup.bash
+-- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/local_setup.sh
+-- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/local_setup.zsh
+-- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/local_setup.dsv
+-- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/package.dsv
+-- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/ament_index/resource_index/packages/fanuc_m10ia_control
+-- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/cmake/fanuc_m10ia_controlConfig.cmake
+-- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/cmake/fanuc_m10ia_controlConfig-version.cmake
+-- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/package.xml

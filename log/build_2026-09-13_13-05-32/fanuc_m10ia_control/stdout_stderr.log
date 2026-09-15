@@ -1,0 +1,19 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/planning_scene.dir/src/planning_scene.cpp.o[0m
+In file included from [01m[K/home/mateo-lince/fanuc_moveit_ws/src/fanuc_m10ia_control/src/planning_scene.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 |  message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+
+[01m[K/home/mateo-lince/fanuc_moveit_ws/src/fanuc_m10ia_control/src/planning_scene.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/mateo-lince/fanuc_moveit_ws/src/fanuc_m10ia_control/src/planning_scene.cpp:162:33:[m[K [01;31m[Kerror: [m[K‘[01m[KXXX[m[K’ was not declared in this scope
+  162 |     obstacle2_pose.position.x = [01;31m[KXXX[m[K;
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/mateo-lince/fanuc_moveit_ws/src/fanuc_m10ia_control/src/planning_scene.cpp:163:33:[m[K [01;31m[Kerror: [m[K‘[01m[KYYY[m[K’ was not declared in this scope
+  163 |     obstacle2_pose.position.y = [01;31m[KYYY[m[K;
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/mateo-lince/fanuc_moveit_ws/src/fanuc_m10ia_control/src/planning_scene.cpp:164:33:[m[K [01;31m[Kerror: [m[K‘[01m[KZZZ[m[K’ was not declared in this scope
+  164 |     obstacle2_pose.position.z = [01;31m[KZZZ[m[K;
+      |                                 [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/planning_scene.dir/build.make:76: CMakeFiles/planning_scene.dir/src/planning_scene.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/planning_scene.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

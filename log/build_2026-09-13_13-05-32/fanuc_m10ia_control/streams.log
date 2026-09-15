@@ -1,0 +1,21 @@
+[0.009s] Invoking command in '/home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control -- -j16 -l16
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/planning_scene.dir/src/planning_scene.cpp.o[0m
+[1.737s] In file included from [01m[K/home/mateo-lince/fanuc_moveit_ws/src/fanuc_m10ia_control/src/planning_scene.cpp:2[m[K:
+[1.737s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[1.737s]    50 |  message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[1.737s]       |                                                                      [01;36m[K^[m[K
+[1.737s] 
+[2.767s] [01m[K/home/mateo-lince/fanuc_moveit_ws/src/fanuc_m10ia_control/src/planning_scene.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[2.767s] [01m[K/home/mateo-lince/fanuc_moveit_ws/src/fanuc_m10ia_control/src/planning_scene.cpp:162:33:[m[K [01;31m[Kerror: [m[K‘[01m[KXXX[m[K’ was not declared in this scope
+[2.767s]   162 |     obstacle2_pose.position.x = [01;31m[KXXX[m[K;
+[2.767s]       |                                 [01;31m[K^~~[m[K
+[2.770s] [01m[K/home/mateo-lince/fanuc_moveit_ws/src/fanuc_m10ia_control/src/planning_scene.cpp:163:33:[m[K [01;31m[Kerror: [m[K‘[01m[KYYY[m[K’ was not declared in this scope
+[2.770s]   163 |     obstacle2_pose.position.y = [01;31m[KYYY[m[K;
+[2.770s]       |                                 [01;31m[K^~~[m[K
+[2.773s] [01m[K/home/mateo-lince/fanuc_moveit_ws/src/fanuc_m10ia_control/src/planning_scene.cpp:164:33:[m[K [01;31m[Kerror: [m[K‘[01m[KZZZ[m[K’ was not declared in this scope
+[2.773s]   164 |     obstacle2_pose.position.z = [01;31m[KZZZ[m[K;
+[2.773s]       |                                 [01;31m[K^~~[m[K
+[4.071s] gmake[2]: *** [CMakeFiles/planning_scene.dir/build.make:76: CMakeFiles/planning_scene.dir/src/planning_scene.cpp.o] Error 1
+[4.072s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/planning_scene.dir/all] Error 2
+[4.072s] gmake: *** [Makefile:146: all] Error 2
+[4.074s] Invoked command in '/home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control -- -j16 -l16

@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control -- -j16 -l16
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/planning_scene.dir/src/planning_scene.cpp.o[0m
+[1.751s] In file included from [01m[K/home/mateo-lince/fanuc_moveit_ws/src/fanuc_m10ia_control/src/planning_scene.cpp:2[m[K:
+[1.751s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[1.751s]    50 |  message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[1.751s]       |                                                                      [01;36m[K^[m[K
+[1.751s] 
+[4.264s] [100%] [32m[1mLinking CXX executable planning_scene[0m
+[4.418s] [100%] Built target planning_scene
+[4.430s] Invoked command in '/home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control -- -j16 -l16
+[4.431s] Invoking command in '/home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control
+[4.439s] -- Install configuration: ""
+[4.439s] -- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/lib/fanuc_m10ia_control/planning_scene
+[4.439s] -- Set non-toolchain portion of runtime path of "/home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/lib/fanuc_m10ia_control/planning_scene" to ""
+[4.439s] -- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/ament_index/resource_index/package_run_dependencies/fanuc_m10ia_control
+[4.440s] -- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/ament_index/resource_index/parent_prefix_path/fanuc_m10ia_control
+[4.440s] -- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/environment/ament_prefix_path.sh
+[4.440s] -- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/environment/ament_prefix_path.dsv
+[4.440s] -- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/environment/path.sh
+[4.440s] -- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/environment/path.dsv
+[4.440s] -- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/local_setup.bash
+[4.440s] -- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/local_setup.sh
+[4.440s] -- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/local_setup.zsh
+[4.440s] -- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/local_setup.dsv
+[4.440s] -- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/package.dsv
+[4.440s] -- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/ament_index/resource_index/packages/fanuc_m10ia_control
+[4.440s] -- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/cmake/fanuc_m10ia_controlConfig.cmake
+[4.440s] -- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/cmake/fanuc_m10ia_controlConfig-version.cmake
+[4.440s] -- Up-to-date: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/package.xml
+[4.442s] Invoked command in '/home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control

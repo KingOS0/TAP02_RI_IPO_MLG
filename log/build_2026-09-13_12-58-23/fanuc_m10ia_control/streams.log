@@ -1,0 +1,95 @@
+[0.008s] Invoking command in '/home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mateo-lince/fanuc_moveit_ws/src/fanuc_m10ia_control -DCMAKE_INSTALL_PREFIX=/home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control
+[0.232s] -- The C compiler identification is GNU 13.3.0
+[0.414s] -- The CXX compiler identification is GNU 13.3.0
+[0.436s] -- Detecting C compiler ABI info
+[0.547s] -- Detecting C compiler ABI info - done
+[0.552s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.553s] -- Detecting C compile features
+[0.553s] -- Detecting C compile features - done
+[0.563s] -- Detecting CXX compiler ABI info
+[0.656s] -- Detecting CXX compiler ABI info - done
+[0.661s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.662s] -- Detecting CXX compile features
+[0.662s] -- Detecting CXX compile features - done
+[0.672s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.790s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.912s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.975s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.993s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.017s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.043s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.139s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.146s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.266s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.282s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.303s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.399s] -- Found moveit_ros_planning_interface: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[1.544s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[1.846s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.933s] -- Found parameter_traits: 0.7.3 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.954s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+[1.954s]   Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+[1.954s]   Lyrical Luth.
+[1.954s] 
+[1.954s]         Use tl/expected.hpp from libexpected-dev,
+[1.954s]         or rcpputils/tl_expected/expected.hpp if the system header is not available)
+[1.954s] Call Stack (most recent call first):
+[1.954s]   /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.954s]   /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+[1.954s]   /opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_library-extras.cmake:30 (find_package)
+[1.954s]   /opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_libraryConfig.cmake:41 (include)
+[1.954s]   /opt/ros/jazzy/share/moveit_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.954s]   /opt/ros/jazzy/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)
+[1.954s]   /opt/ros/jazzy/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.954s]   /opt/ros/jazzy/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[1.954s]   CMakeLists.txt:11 (find_package)
+[1.954s] 
+[1.954s] [0m
+[1.962s] -- Found rclcpp_lifecycle: 28.1.21 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.083s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.083s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.278s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[2.321s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[2.345s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[2.381s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.473s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.473s] -- Configured cppcheck include dirs: 
+[2.473s] -- Configured cppcheck exclude dirs and/or files: 
+[2.474s] -- Added test 'lint_cmake' to check CMake code style
+[2.475s] -- Added test 'uncrustify' to check C / C++ code style
+[2.475s] -- Configured uncrustify additional arguments: 
+[2.476s] -- Added test 'xmllint' to check XML markup files
+[2.478s] -- Configuring done (2.5s)
+[2.510s] -- Generating done (0.0s)
+[2.516s] -- Build files have been written to: /home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control
+[2.534s] Invoked command in '/home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mateo-lince/fanuc_moveit_ws/src/fanuc_m10ia_control -DCMAKE_INSTALL_PREFIX=/home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control
+[2.535s] Invoking command in '/home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control -- -j16 -l16
+[2.587s] [ 50%] [32mBuilding CXX object CMakeFiles/planning_scene.dir/src/planning_scene.cpp.o[0m
+[4.691s] In file included from [01m[K/home/mateo-lince/fanuc_moveit_ws/src/fanuc_m10ia_control/src/planning_scene.cpp:2[m[K:
+[4.691s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[4.692s]    50 |  message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[4.692s]       |                                                                      [01;36m[K^[m[K
+[4.692s] 
+[7.246s] [100%] [32m[1mLinking CXX executable planning_scene[0m
+[7.482s] [100%] Built target planning_scene
+[7.493s] Invoked command in '/home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control -- -j16 -l16
+[7.494s] Invoking command in '/home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control
+[7.501s] -- Install configuration: ""
+[7.501s] -- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/lib/fanuc_m10ia_control/planning_scene
+[7.501s] -- Set non-toolchain portion of runtime path of "/home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/lib/fanuc_m10ia_control/planning_scene" to ""
+[7.501s] -- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/ament_index/resource_index/package_run_dependencies/fanuc_m10ia_control
+[7.501s] -- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/ament_index/resource_index/parent_prefix_path/fanuc_m10ia_control
+[7.502s] -- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/environment/ament_prefix_path.sh
+[7.502s] -- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/environment/ament_prefix_path.dsv
+[7.502s] -- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/environment/path.sh
+[7.502s] -- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/environment/path.dsv
+[7.502s] -- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/local_setup.bash
+[7.502s] -- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/local_setup.sh
+[7.502s] -- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/local_setup.zsh
+[7.502s] -- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/local_setup.dsv
+[7.502s] -- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/package.dsv
+[7.502s] -- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/ament_index/resource_index/packages/fanuc_m10ia_control
+[7.502s] -- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/cmake/fanuc_m10ia_controlConfig.cmake
+[7.502s] -- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/cmake/fanuc_m10ia_controlConfig-version.cmake
+[7.503s] -- Installing: /home/mateo-lince/fanuc_moveit_ws/install/fanuc_m10ia_control/share/fanuc_m10ia_control/package.xml
+[7.504s] Invoked command in '/home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control

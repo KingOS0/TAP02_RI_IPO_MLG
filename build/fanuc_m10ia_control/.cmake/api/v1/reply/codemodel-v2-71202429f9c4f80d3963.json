@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fb16eae0b892019c2fd4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "fanuc_m10ia_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fanuc_m10ia_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fanuc_m10ia_control_uninstall-d8f3f1ae4f45d3bf7f09.json",
+					"name" : "fanuc_m10ia_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jacobiano_moveit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jacobiano_moveit-003129ee9f585fc4b36f.json",
+					"name" : "jacobiano_moveit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_length::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_length-ab08ad4ff518e63fce14.json",
+					"name" : "path_length",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "planning_scene::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-planning_scene-920a32f6c8b52188037d.json",
+					"name" : "planning_scene",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-555dc04d69b4650dad5b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mateo-lince/fanuc_moveit_ws/build/fanuc_m10ia_control",
+		"source" : "/home/mateo-lince/fanuc_moveit_ws/src/fanuc_m10ia_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
