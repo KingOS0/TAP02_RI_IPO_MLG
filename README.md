@@ -1,8 +1,8 @@
-# Parcial de Robótica - Ciclo Pick and Place con FANUC M-10iA 🤖
+# Parcial de Robótica - Ciclo Pick and Place con FANUC M-10iA 
 
 Este proyecto corresponde al parcial de robótica realizado con un robot **FANUC M-10iA** usando **ROS 2 Jazzy** y **MoveIt 2**.
 
-## 📦 Estructura del Proyecto
+##  Estructura del Proyecto
 
 El proyecto está dividido principalmente en tres paquetes:
 
@@ -12,7 +12,7 @@ El proyecto está dividido principalmente en tres paquetes:
 
 ---
 
-## 🛠️ Instrucciones de Compilación
+##  Instrucciones de Compilación
 
 Para compilar el proyecto, abre una terminal en la carpeta raíz de tu *workspace* y ejecuta:
 
@@ -27,17 +27,17 @@ Sigue estos pasos en diferentes terminales (recuerda hacer el source en cada una
 Este comando carga el FANUC M-10iA en MoveIt, lo que permite visualizar el robot, usar las poses guardadas y planear trayectorias de forma gráfica:
 ros2 launch fanuc_m10ia_moveit_config demo.launch.py
 
-Cargar Escena de Planificación
+2. Cargar Escena de Planificación
 ros2 run fanuc_m10ia_control planning_scene
 
-Comparación de Planeadores
+3. Comparación de Planeadores
 ros2 run fanuc_m10ia_control path_length
 
-Acercamiento Fino (Pre-Pick a Pick)
+4. Acercamiento Fino (Pre-Pick a Pick)
 python3 src/fanuc_m10ia_control/interpolacion.py
 
-Acercamiento Fino (Pre-Place a Place)
+5. Acercamiento Fino (Pre-Place a Place)
 python3 src/fanuc_m10ia_control/interpolacion_place.py
 
-Validación del Jacobiano
+6. Validación del Jacobiano
 ros2 run fanuc_m10ia_control jacobiano_moveit
