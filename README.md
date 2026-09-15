@@ -1,4 +1,5 @@
 # Parcial de Robótica - Ciclo Pick and Place con FANUC M-10iA 
+# Mateo Lince Gutierrez -- Idekel Plaza Osorio
 
 Este proyecto corresponde al parcial de robótica realizado con un robot **FANUC M-10iA** usando **ROS 2 Jazzy** y **MoveIt 2**.
 
